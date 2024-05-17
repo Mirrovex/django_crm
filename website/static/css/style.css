@@ -8,3 +8,17 @@ button[type="submit"] {
     --bs-alert-border-color: var(--bs-danger-border-subtle);
     --bs-alert-link-color: var(--bs-danger-text-emphasis);
 }
+
+.clickable {
+    cursor: pointer;
+}
+
+.right-span {
+    border-left: solid 1px gray;
+    padding: 0 5px;
+}
+
+.name-title {
+    font-size: 30px;
+    color: darkslategray;
+}

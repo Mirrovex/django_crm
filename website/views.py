@@ -14,10 +14,12 @@ def home(request):
             messages.success(request, "You have been logged in")
             return redirect('home')
         else:
-            messages.error(request, "Error, Please try again...")
+            messages.error(request, "Error, Please try again")
             return redirect('home')
     else:
         return render(request, 'home.html', {})
 
 def logout_user(request):
-    pass
+    logout(request)
+    messages.success(request, "You have been logged out")
+    return redirect('home')

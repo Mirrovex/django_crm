@@ -1,0 +1,5 @@
+*.env
+bin/
+lib/
+*.sqlite3
+__pycache__/

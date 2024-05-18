@@ -22,3 +22,8 @@ button[type="submit"] {
     font-size: 30px;
     color: darkslategray;
 }
+
+.btn-right {
+    float: right;
+    margin-left: 5px;
+}

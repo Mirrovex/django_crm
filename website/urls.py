@@ -9,4 +9,5 @@ urlpatterns = [
     path('record/<int:id>/', customer_record, name='record'),
     path('delete/<int:id>/', delete_record, name='delete'),
     path('add/', add_record, name='add'),
+    path('update/<int:id>/', update_record, name='update'),
 ]

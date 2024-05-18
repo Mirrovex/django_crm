@@ -2,15 +2,14 @@
 {% block content %}
 
 <div class="col-md-6 offset-md-3">
-    <h1>Add Record</h1>
+    <h1>Update Record</h1>
     <br>
-    <form method="POST" action="{% url 'add' %}">
+    <form method="POST">
         {% csrf_token %}
 
         {{ form.as_p}}
 
-        <br>
-        <button type="submit" class="btn btn-primary">Add</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
 </div>

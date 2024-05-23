@@ -10,7 +10,7 @@
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
                 Your form has errors
                 {% for field in form %}
-                    {% if firld.errors %}
+                    {% if field.errors %}
                         {{ field.errors }}
                     {% endif %}
                 {% endfor %}
